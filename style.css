@@ -1,0 +1,115 @@
+*{
+box-sizing:border-box;
+}
+
+.clearfix &:before{
+    content: "";
+    display: table;
+}
+
+.clearfix &:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body{
+    background-image: url("bg-main.png");
+    font-family: "Times New Roman", Times, serif;
+}
+
+.header-page-wrap{
+    color: #fff;
+}
+
+.header-page{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 20px 0 10px 0;
+}
+
+.header-page-wrap h4{
+    font-size: 30px;
+    margin: 0 0 10px;
+    line-height: 1.4;
+}
+
+.header-page-wrap span{
+    display: block;
+    font-size: 20px;
+}
+
+.container-column{
+    background-color: darkgoldenrod;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 5px solid #fff;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.column-left{
+    float: left;
+    width: 600px;
+}
+
+.content-title{
+    float: left;
+    background-color: #fff;
+    width: 40%;
+}
+
+.content-title ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content-title ul li h4{
+    margin: 0;
+}
+
+.content-title ul li a{
+    text-decoration: none;
+    color: #000;
+    display:block;
+    font-size:18px;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.content-title ul li a:hover{
+    color: brown;
+    background-color: #fcd733;
+
+}
+
+.content-title ul li a.active{
+    background-color: darkgoldenrod;
+    color: #fff;
+}
+
+.content-title ul li a.active span{
+    color: #fff;
+}
+
+.content-title span{
+    display: block;
+    color: gray;
+    font-size: 14px;
+
+}
+
+.details{
+    float: right;
+    width: 50%;
+}
+
+.column-right{
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+
