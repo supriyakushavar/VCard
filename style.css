@@ -30,9 +30,12 @@ body{
 }
 
 .header-page-wrap h4{
-    font-size: 30px;
     margin: 0 0 10px;
     line-height: 1.4;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#eee, #e7c21f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .header-page-wrap span{
@@ -52,7 +55,7 @@ body{
 
 .column-left{
     float: left;
-    width: 600px;
+    width: 60%;
 }
 
 .content-title{
@@ -81,7 +84,6 @@ body{
 }
 
 .content-title ul li a:hover{
-    color: brown;
     background-color: #fcd733;
 
 }
@@ -93,6 +95,13 @@ body{
 
 .content-title ul li a.active span{
     color: #fff;
+}
+
+.fas , .far{
+    font-size: 30px;
+    float: right;
+    margin-top: -15px;
+    color:#000;
 }
 
 .content-title span{
@@ -107,9 +116,50 @@ body{
     width: 50%;
 }
 
-.column-right{
-    -webkit-flex: 1;
-    flex: 1;
+.detailed-text h4{
+    color:#fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0;
 }
+
+.Image-box{
+    border: 1px solid #fff;
+    padding: 2px;
+    text-align: center;
+
+}
+
+.Image-box img{
+    display: block;
+    margin: 10px auto;
+}
+
+.column-right{
+    width: 40%;
+    padding: 0 0 0 30px;
+}
+
+.column-right h4{
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+}
+
+.personel-info-box p span{
+    width: 40%;
+    float: left;
+}
+
+.personel-info-box p{
+    content: "";
+    clear: both;
+}
+
+.personel-info-box label{
+
+}
+
+
 
 
