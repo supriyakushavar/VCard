@@ -15,7 +15,7 @@ box-sizing:border-box;
 
 
 body{
-    background: url("index.jpeg") no-repeat;
+    background: url("index.jpeg") no-repeat center 30%;
     font-family: "Times New Roman", Times, serif;
     background-size: 100%;
 }
@@ -34,9 +34,11 @@ body{
     margin: 0 0 10px;
     line-height: 1.4;
     font-size: 40px;
-    background: -webkit-linear-gradient(#eee, #e7c21f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #000;
+    background: -webkit-linear-gradient(#a08510, #b7970b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
 }
 
 .header-page-wrap span{
@@ -45,11 +47,11 @@ body{
 }
 
 .container-column{
-    background: rgba( 230, 193, 31, 0.3);
+    background: rgba( 230, 193, 31, 0.6);
     //background-color: darkgoldenrod;
     max-width: 1180px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px 30px 70px;
     border-top: 5px solid #fff;
     display: -webkit-flex;
     display: flex;
@@ -125,8 +127,13 @@ body{
     margin: 0;
 }
 
-.Image-box{
+.detailed-text p{
     border: 1px solid #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.Image-box{
     padding: 2px;
     text-align: center;
 
@@ -146,6 +153,10 @@ body{
     font-size: 30px;
     color: #fff;
     margin: 0;
+}
+
+.personel-info-box p{
+    font-size: 18px;
 }
 
 .personel-info-box p span{
@@ -174,8 +185,8 @@ body{
 }
 
 .fab , .fas{
-    color: #fff;
     font-size: 40px;
+    color: #000;
 }
 
 
