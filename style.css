@@ -15,8 +15,9 @@ box-sizing:border-box;
 
 
 body{
-    background-image: url("bg-main.png");
+    background: url("index.jpeg") no-repeat;
     font-family: "Times New Roman", Times, serif;
+    background-size: 100%;
 }
 
 .header-page-wrap{
@@ -44,7 +45,8 @@ body{
 }
 
 .container-column{
-    background-color: darkgoldenrod;
+    background: rgba( 230, 193, 31, 0.3);
+    //background-color: darkgoldenrod;
     max-width: 1180px;
     margin: 0 auto;
     padding: 20px;
@@ -158,6 +160,22 @@ body{
 
 .personel-info-box label{
 
+}
+
+.social ul{
+    padding: 0 0 0 20px;
+    margin: 0;
+    list-style: none;
+}
+.social ul li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.fab , .fas{
+    color: #fff;
+    font-size: 40px;
 }
 
 
