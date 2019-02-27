@@ -22,12 +22,13 @@ body{
 
 .header-page-wrap{
     color: #fff;
+    background-color: #000;
 }
 
 .header-page{
     max-width: 1180px;
     margin: 0 auto;
-    padding: 20px 0 10px 0;
+    padding: 30px 0;
 }
 
 .header-page-wrap h4{
@@ -35,7 +36,7 @@ body{
     line-height: 1.4;
     font-size: 40px;
     color: #000;
-    background: -webkit-linear-gradient(#a08510, #b7970b);
+    background: -webkit-linear-gradient(#eee, #b7970b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     
@@ -46,13 +47,16 @@ body{
     font-size: 20px;
 }
 
-.container-column{
+.container-column-wrap{
     background: rgba( 230, 193, 31, 0.6);
+    border-top: 5px solid #fff;
+}
+
+.container-column{
     //background-color: darkgoldenrod;
     max-width: 1180px;
     margin: 0 auto;
     padding: 50px 30px 70px;
-    border-top: 5px solid #fff;
     display: -webkit-flex;
     display: flex;
 }
@@ -187,6 +191,22 @@ body{
 .fab , .fas{
     font-size: 40px;
     color: #000;
+}
+
+.footer-page-wrap{
+    background: #000;
+    padding: 30px 0;
+}
+
+.footer-page{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.footer-page p{
+    margin: 0;
+    color: #fff;
+    font-size: 12px;
 }
 
 
