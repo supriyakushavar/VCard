@@ -15,10 +15,11 @@ box-sizing:border-box;
 
 
 body{
-    background: url("index.jpeg") no-repeat center 30%;
     font-family: "Times New Roman", Times, serif;
     background-size: 100%;
+    background: url("bg-container.jpeg") repeat center top;
 }
+
 
 .header-page-wrap{
     color: #fff;
@@ -29,6 +30,12 @@ body{
     max-width: 1180px;
     margin: 0 auto;
     padding: 30px 0;
+}
+
+@media only screen and (max-width:600px){
+    .header-page{
+        padding: 30px 10px;
+    }
 }
 
 .header-page-wrap h4{
@@ -42,6 +49,8 @@ body{
     
 }
 
+
+
 .header-page-wrap span{
     display: block;
     font-size: 20px;
@@ -50,7 +59,11 @@ body{
 .container-column-wrap{
     background: rgba( 230, 193, 31, 0.6);
     border-top: 5px solid #fff;
+    
+
 }
+
+
 
 .container-column{
     //background-color: darkgoldenrod;
@@ -86,7 +99,7 @@ body{
     color: #000;
     display:block;
     font-size:18px;
-    padding: 20px;
+    padding: 25px 20px;
     border-bottom: 1px solid gray;
 }
 
@@ -118,6 +131,10 @@ body{
 
 }
 
+.profile{
+    border: 5px solid #fff;
+}
+
 .details{
     flex: 2;
     padding: 0 0 0 20px;
@@ -131,9 +148,9 @@ body{
 }
 
 .detailed-text p{
-    border: 1px solid #fff;
     padding: 20px;
     font-size: 20px;
+    margin: 0;
 }
 
 .Image-box{
@@ -198,6 +215,12 @@ body{
     padding: 30px 0;
 }
 
+@media only screen and (max-width:978px){
+    .footer-page-wrap{
+        padding: 30px 10px;
+    }
+}
+
 .footer-page{
     max-width: 1120px;
     margin: 0 auto;
@@ -208,6 +231,14 @@ body{
     color: #fff;
     font-size: 12px;
 }
+
+@media only screen and (min-width:830px){
+    .far {
+        font-size: 23px;
+    }
+}
+
+
 
 
 
